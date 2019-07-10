@@ -8,10 +8,11 @@ import {
   ModalFooter,
   Button
 } from "reactstrap";
-import RoomDetails from './Component/RoomDetails/RoomDetails';
-import RoomDetailsData from './Component/RoomDetails/RoomDetailsData';
-import BookingDetails from '../BookingDetails/BookingDetails';
-import BookingDone from '../BookingDone/BookingDone';
+import RoomDetails from "./Component/RoomDetails/RoomDetails";
+import RoomDetailsData from "./Component/RoomDetails/RoomDetailsData";
+import BookingDetails from "../BookingDetails/BookingDetails";
+import BookingDone from "../BookingDone/BookingDone";
+import TimePicker from "./Component/RoomDetails/TimePicker";
 
 class RoomBooking extends Component {
   constructor(props) {
@@ -51,6 +52,16 @@ class RoomBooking extends Component {
         <Col xs={12} sm={12} md={12} lg={12} xl={12}>
           <RoomDetails />
         </Col>
+        <Col xs={8} sm={8} md={8} lg={8} xl={8} className="margin-auto">
+          <Row>
+            <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+              <TimePicker />
+            </Col>
+            <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+              <TimePicker />
+            </Col>
+          </Row>
+        </Col>
         <Col
           xs={12}
           sm={12}
@@ -80,7 +91,11 @@ class RoomBooking extends Component {
                     xl={12}
                     className="pl-0px pr-0px"
                   >
-                    <img src={data.roomImg} className="card-img__container" alt={data.id} />
+                    <img
+                      src={data.roomImg}
+                      className="card-img__container"
+                      alt={data.id}
+                    />
                   </Col>
                   <Col
                     xs={12}
@@ -99,7 +114,9 @@ class RoomBooking extends Component {
                         xl={12}
                         className="pl-0px pr-0px align-left"
                       >
-                        <p className="section-text title-white fw-800 mb-0px">{data.roomTitle}</p>
+                        <p className="section-text title-white fw-800 mb-0px">
+                          {data.roomTitle}
+                        </p>
                       </Col>
                       <Col
                         xs={12}
@@ -109,7 +126,9 @@ class RoomBooking extends Component {
                         xl={12}
                         className="pl-0px pr-0px align-left"
                       >
-                        <p className="section-text title-white fw-800 mb-0px">{data.roomNo}</p>
+                        <p className="section-text title-white fw-800 mb-0px">
+                          {data.roomNo}
+                        </p>
                       </Col>
                     </Row>
                   </Col>

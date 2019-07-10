@@ -41,3 +41,9 @@
     transform: rotate(360deg);
   }
 }
+.modal-header {
+  border-bottom: 0px solid #dee2e6 !important;
+}
+.modal-footer {
+  border-bottom: 0px solid #dee2e6 !important;
+}

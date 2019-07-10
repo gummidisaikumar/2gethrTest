@@ -1,0 +1,31 @@
+.card-img__container {
+  width: 100%;
+}
+.section-text--big {
+  font-size: 1rem !important;
+}
+.link-container {
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.send-item {
+  background: #e6d539;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.send-item--position {
+  line-height: 2.5rem !important;
+}
+.card-information-container {
+  position: absolute;
+  bottom: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  width: 100%;
+}
+
+.fw-800{
+    font-weight: 800;
+}

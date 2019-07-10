@@ -1,0 +1,19 @@
+.row {
+  margin: 0 !important;
+}
+.col {
+  padding: 0 !important;
+}
+.title-black {
+  color: #000 !important;
+}
+.align-left {
+  text-align: left !important;
+}
+.align-center {
+  text-align: center !important;
+}
+
+.title-white{
+    color: #fff;
+}

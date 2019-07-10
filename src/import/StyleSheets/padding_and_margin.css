@@ -1,0 +1,37 @@
+.padding-1rem{
+    padding: 1rem !important;
+}
+.pl-0px {
+  padding-left: 0 !important;
+}
+
+.pr-0px {
+  padding-right: 0 !important;
+}
+.pt-16px {
+  padding-top: 1ren !important;
+}
+
+.pb-16px {
+  padding-bottom: 1rem !important;
+}
+.pt-32px {
+  padding-top: 2rem !important;
+}
+
+.pb-32px {
+  padding-bottom: 2rem !important;
+}
+
+.ml-0px {
+  margin-left: 0 !important;
+}
+.mb-0px {
+  margin-bottom: 0 !important;
+}
+.mr-0px {
+  margin-right: 0 !important;
+}
+.mt-0px {
+  margin-top: 0 !important;
+}
